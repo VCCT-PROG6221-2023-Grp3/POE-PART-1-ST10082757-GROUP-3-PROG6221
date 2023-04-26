@@ -15,18 +15,23 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
                 //calling class with  functions
                 COOKBOOK recipes = new COOKBOOK();
 
+                Console.WriteLine("================================================================================================================\n");
+                Console.WriteLine("\t\tWELCOME ");
+                Console.WriteLine("================================================================================================================\n");
+
+
                 //while loop to display the statements and execute their action in the switch statements
                 while (true)
                 {
-                    Console.WriteLine("1: ENTER RECIPE DETAILS");
+                    Console.WriteLine("1: ENTER RECIPE DETAILS\n");
 
-                    Console.WriteLine("2: DISPLAY DETAILS");
+                    Console.WriteLine("2: DISPLAY DETAILS\n");
 
-                    Console.WriteLine("3: SCALE RECIPE");
+                    Console.WriteLine("3: SCALE RECIPE\n");
 
-                    Console.WriteLine("4: RESET AMOUNT");
+                    Console.WriteLine("4: RESET AMOUNT\n");
 
-                    Console.WriteLine("5: DELETE RECIPE ENTRY");
+                    Console.WriteLine("5: DELETE RECIPE ENTRY\n");
 
                     Console.WriteLine("6: EXIT");
 
