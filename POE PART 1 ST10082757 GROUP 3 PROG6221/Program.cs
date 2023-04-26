@@ -10,56 +10,61 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
     {
         static void Main(string[] args)
         {
-            //calling the class with the functions
-            COOKBOOK recipe = new COOKBOOK();
-
-            //while loop to display the statements and execute their action in the switch statements
-            while (true) 
+            static void Main(string[] args)
             {
-                Console.WriteLine("1: ENTER RECIPE DETAILS");
-                Console.WriteLine("2: DISPLAY DETAILS");
-                Console.WriteLine("1: SCALE RECIPE");
-                Console.WriteLine("1: RESET AMOUNT");
-                Console.WriteLine("1: DELETE RECIPE ENTRY");
-                Console.WriteLine("1: EXIT");
+                //calling class with  functions
+                COOKBOOK recipes = new COOKBOOK();
 
-                //input is read and then refered to one of these cases
-                string chose = Console.ReadLine();
-
-                switch(choose)
+                //while loop to display the statements and execute their action in the switch statements
+                while (true)
                 {
-                    //case statements of choices above
-                    case "1":
-                        recipe.DETAILS();
-                        break;
+                    Console.WriteLine("1: ENTER RECIPE DETAILS");
 
-                    case "2":
-                        recipe.OUTPUT_RECIPE();
-                        break;
+                    Console.WriteLine("2: DISPLAY DETAILS");
+
+                    Console.WriteLine("3: SCALE RECIPE");
+
+                    Console.WriteLine("4: RESET AMOUNT");
+
+                    Console.WriteLine("5: DELETE RECIPE ENTRY");
+
+                    Console.WriteLine("6: EXIT");
+
+                    //input is read and then refered to one of these cases
+                    string choose = Console.ReadLine();
+
+                    switch (choose)
+                    {
+                        //options of choices above
+                        case "1":
+                            recipes.OUTPUT_RECIPE();
+                            break;
+
+                        case "2":
+                            recipes.DISPLAY();
+                            break;
 
                         case "3":
-                        Console.Write("Enter your prefered scaling factor 0.5 (half), 2 (double) or 3 (triple): ");
-                        double factor = double.Parse(Console.ReadLine());
-                        recipe.SCALE(factor);
-                        break;
+                            recipes.SCALE();
+                            break;
 
                         case "4":
-                        recipe.RESET();
-                        break;
+                            recipes.RESET();
+                            break;
 
                         case "5":
-                        recipe.DELETE();
-                        break;
+                            recipes.DELETE();
+                            break;
 
-                        case"6":
-                        Console.WriteLine("LEAVING BYE!!");
-                        return;
+                        case "6":
+                            Console.WriteLine("LEAVING. THANK YOU!!");
+                            return;
 
-                    default:
-                        Console.WriteLine("INVALID OPTION!");
-                        break;
+                        default:
+                            Console.WriteLine("INVALID OPTION!");
+                            break;
+                    }
                 }
             }
         }
-    }
 }
