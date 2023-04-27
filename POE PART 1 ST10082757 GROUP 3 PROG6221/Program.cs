@@ -74,4 +74,3 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
         }
 }
 
-    //making my menu a switch statement instead of a loop or exception
