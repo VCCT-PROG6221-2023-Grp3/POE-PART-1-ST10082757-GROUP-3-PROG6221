@@ -31,7 +31,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
         public void OUTPUT_RECIPE()
         {
             //Ask user to enter the ingredients
-
+            
             Console.Write("Number of Ingredients: ");
             int Ingredients = 0; //Ingredients local variable. convert string to int 
 
