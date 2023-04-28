@@ -55,6 +55,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
 
             for (int i = 0; i < Ingredients; i++)
             {
+
                 Console.WriteLine($"Details for ingredient number {i + 1}: "); // the dollar sign provides a more convenient syntax to format strings
 
                 Console.Write("Ingredient name: ");
