@@ -186,6 +186,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
             measure = new string[0];
             steps = new string[0];
 
+
             Console.WriteLine($"DELETE COMPLETE, choose option 2 to confirm\n");
 
         }
