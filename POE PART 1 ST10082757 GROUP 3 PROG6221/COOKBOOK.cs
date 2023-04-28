@@ -45,6 +45,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
                 Console.WriteLine("INVALID! INT ONLY");
                 OUTPUT_RECIPE();
             }
+
             //instances to store the results of the above input of ingredients in these arrays
 
             ingredients = new string[Ingredients];
