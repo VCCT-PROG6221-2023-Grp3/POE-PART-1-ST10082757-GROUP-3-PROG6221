@@ -40,7 +40,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
             {
                 Ingredients = int.Parse(Console.ReadLine());
             }
-            catch(FormatException)
+            catch(Exception e)
             {
                 Console.WriteLine("INVALID! INT ONLY\n");
                 OUTPUT_RECIPE();
@@ -94,7 +94,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
                 }
 
                 //displaying error message
-                catch (FormatException) 
+                catch (Exception e) 
                 { 
                     Console.WriteLine("INVALID! INT ONLY\n"); 
                 }
@@ -129,7 +129,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
                 }
             }
             //displays error and takes us back to the beginning of this method
-            catch (FormatException)
+            catch (Exception e)
             {
                 Console.WriteLine("INVALID!\n");
                 SCALE();
@@ -171,6 +171,8 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
             {
                 sum[i] /= 2;
             }
+            Console.WriteLine($"RESET COMPLETE, choose option 2 to confirm\n");
+
         }
         //------------------------------------------------------------------------END-----------------------------------------------------------------------------------------
 
@@ -183,7 +185,10 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
             measure = new string[0];
             steps = new string[0];
 
+            Console.WriteLine($"DELETE COMPLETE, choose option 2 to confirm\n");
+
         }
+
 
     }
 }
