@@ -55,7 +55,6 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
         {
             Console.WriteLine("\nEnter 1 of the scaling factors using a comma; 0,5 or 2 or 3 \n");
             // double scale;
-            double SumAndextra;
 
             //setting the input to double
             scale = double.Parse(Console.ReadLine());
