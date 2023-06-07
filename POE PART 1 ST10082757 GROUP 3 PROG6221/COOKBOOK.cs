@@ -216,7 +216,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
                                $"{ig.Calories}\n ===FOODGROUP: {ig.Foodgroup}");
                         total = total + ig.Calories;
                         Console.WriteLine();
-
+                         
                     }
                     TOTCAL(total);
                     foreach (string step in stpList)
