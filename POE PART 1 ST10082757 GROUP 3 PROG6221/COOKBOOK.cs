@@ -26,7 +26,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
 
         ingredients ingredients1 = new ingredients();
         recipe recipe1 = new recipe();
-        int Ingredients01;
+        int Ingredients01; 
         double scale;
 
         public COOKBOOK()
