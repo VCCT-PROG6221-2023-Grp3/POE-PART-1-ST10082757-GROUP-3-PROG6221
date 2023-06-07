@@ -151,7 +151,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
                         Console.WriteLine("Warning: The total calories of recipe " + recipeName + " exceed 300!");
                         Console.ResetColor();
                     }
-
+                     
                     Console.WriteLine("\nName of food group: ");
                     string foodGroup = Console.ReadLine();
 
