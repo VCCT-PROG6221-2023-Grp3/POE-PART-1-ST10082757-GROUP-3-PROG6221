@@ -23,7 +23,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
                 Console.WriteLine("======================================================================================================================\n");
                 Console.WriteLine("\t\t\t\t\t\tWELCOME TO THE RECIPE MANAGING APPLICATION ");
                 Console.WriteLine("======================================================================================================================\n");
-
+                 
 
                 //while loop to display the statements and execute their action in the switch statements
                 while (true)
