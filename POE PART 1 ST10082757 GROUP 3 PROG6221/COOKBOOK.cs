@@ -142,7 +142,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
 
                     Console.WriteLine("\nNumber of calories: ");
                     int cal = int.Parse(Console.ReadLine());
-
+                     
                     if (cal > 300)
                     {
                         CaloriesExceeded?.Invoke(recipeName, cal);
