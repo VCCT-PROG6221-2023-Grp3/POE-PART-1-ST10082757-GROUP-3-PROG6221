@@ -87,7 +87,6 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
         public void RESET() 
         {
 
-
             for (int i = 0; i < ingredientsList.Count; i++)
             {
 
