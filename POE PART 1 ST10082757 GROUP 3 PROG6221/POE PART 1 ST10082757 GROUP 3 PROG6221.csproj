@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="COOKBOOK.cs" />
+    <Compile Include="ingredients.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RECIPEES.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

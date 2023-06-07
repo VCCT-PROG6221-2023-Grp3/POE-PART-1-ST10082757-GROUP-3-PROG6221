@@ -8,33 +8,40 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
 {
     public class Program
     {
+        #region
+        public List<COOKBOOK> cookies = new List<COOKBOOK>();
+        public List<recipe> recipes = new List<recipe>();
+        public List<ingredients> ingred = new List<ingredients>();
+        #endregion
         static void Main(string[] args)
         {
-            //calling class with  functions
-            COOKBOOK recipes = new COOKBOOK();
 
+            COOKBOOK cookies = new COOKBOOK();
             //while loop to display the statements and execute their action in the switch statements
             while (true)
             {
                 Console.WriteLine("======================================================================================================================\n");
-                Console.WriteLine("\t\tWELCOME ");
+                Console.WriteLine("\t\t\t\t\t\tWELCOME TO THE RECIPE MANAGING APPLICATION ");
                 Console.WriteLine("======================================================================================================================\n");
 
 
                 //while loop to display the statements and execute their action in the switch statements
                 while (true)
                 {
-                    Console.WriteLine("1: ENTER RECIPE DETAILS\n");
+                    Console.WriteLine("\nPLEASE CHOOSE AN OPTION FROM THE FOLLOWING:\n");
 
-                    Console.WriteLine("2: DISPLAY DETAILS\n");
+                    Console.WriteLine("1: ENTER RECIPES DETAILS\n");
 
-                    Console.WriteLine("3: SCALE RECIPE\n");
+                    Console.WriteLine("2: VIEW LIST OF RECIPES\n");
 
-                    Console.WriteLine("4: RESET AMOUNT\n");
+                    Console.WriteLine("3: SCALE INGREDIENT\n");
 
-                    Console.WriteLine("5: DELETE RECIPE ENTRY\n");
+                    Console.WriteLine("5: RESET AMOUNT\n");
 
-                    Console.WriteLine("6: EXIT");
+                    Console.WriteLine("6: DELETE RECIPE ENTRY\n");
+
+                    Console.WriteLine("7: EXIT\n");
+
 
                     //input is read and then refered to one of these cases
                     string choose = Console.ReadLine();
@@ -43,26 +50,26 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
                     {
                         //options of choices above
                         case "1":
-                            recipes.OUTPUT_RECIPE();
+                            cookies.ADDINGRECIPE();
                             break;
 
                         case "2":
-                            recipes.DISPLAY();
+                            cookies.VIEWRECIPE();
                             break;
 
                         case "3":
-                            recipes.SCALE();
-                            break;
-
-                        case "4":
-                            recipes.RESET();
-                            break;
-
+                            cookies.SCALE();
+                            break
+                                ;
                         case "5":
-                            recipes.DELETE();
+                            cookies.RESET();
                             break;
 
                         case "6":
+                            cookies.DELETE();
+                            break;
+
+                        case "7":
                             Console.WriteLine("LEAVING. THANK YOU!!");
                             return;
 
@@ -75,4 +82,3 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
         }
     }
 }
-
