@@ -9,7 +9,6 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
     public class ingredients
     {
         private string measure = "";
-        private double sumAndextra = 0;
         private double sum = 0;
         private string nameofingredient = "";
         private double calories = 0;
@@ -17,7 +16,6 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
         private int numofingred = 0;
         private double totalcalories = 0;
         public string Measure { get => measure; set => measure = value; }
-        public double SumAndextra { get => sumAndextra; set => sumAndextra = value; }
         public double Sum { get => sum; set => sum = value; }
         public string Nameofingredient { get => nameofingredient; set => nameofingredient = value; }
         public double Calories { get => calories; set => calories = value; }
