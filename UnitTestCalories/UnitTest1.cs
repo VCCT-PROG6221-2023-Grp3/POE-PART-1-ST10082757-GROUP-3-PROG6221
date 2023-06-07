@@ -16,7 +16,7 @@ namespace UnitTestCalories
             double cal = 350 ;
             cook.TOTCAL(cal);
 
-            Assert.true
+            //Assert.true
 
         }
     }
