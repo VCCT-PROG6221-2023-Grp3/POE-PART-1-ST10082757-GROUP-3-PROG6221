@@ -13,7 +13,6 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
 
     public class COOKBOOK
     {
-
         private string RecipeName;
         private double total;
         public string steps { get; set; }
