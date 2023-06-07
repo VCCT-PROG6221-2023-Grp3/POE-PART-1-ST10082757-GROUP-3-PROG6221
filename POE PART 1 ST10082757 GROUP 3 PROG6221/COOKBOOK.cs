@@ -190,7 +190,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
         #region
         public void VIEWRECIPE() 
         {
-
+             
             string recipeName = "";
 
             foreach (COOKBOOK ig in recipeList)
