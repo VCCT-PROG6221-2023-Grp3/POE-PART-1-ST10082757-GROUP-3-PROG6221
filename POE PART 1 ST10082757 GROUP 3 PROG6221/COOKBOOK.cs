@@ -123,7 +123,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
             string recipeName = Console.ReadLine();
 
             try
-            {
+            { 
 
                 Console.WriteLine("\nNumber of Ingredients: ");
                 Ingredients01 = Convert.ToInt32(Console.ReadLine());
