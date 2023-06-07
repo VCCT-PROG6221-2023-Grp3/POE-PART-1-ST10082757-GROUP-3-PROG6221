@@ -240,7 +240,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
         #endregion
 
         #region
-        public void TOTCAL(double calories) 
+        public void TOTCAL(double calories)  
         {
             double totalCalories = calories;
 
