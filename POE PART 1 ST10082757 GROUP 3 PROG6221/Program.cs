@@ -8,11 +8,13 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
 {
     public class Program
     {
+        //lists of all my other classes
         #region
         public List<COOKBOOK> cookies = new List<COOKBOOK>();
         public List<recipe> recipes = new List<recipe>();
         public List<ingredients> ingred = new List<ingredients>();
         #endregion
+        //main method to run switch statement
         static void Main(string[] args) 
         {
 
@@ -20,6 +22,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
             //while loop to display the statements and execute their action in the switch statements
             while (true)
             {
+                //welcome display of my application
                 Console.WriteLine("======================================================================================================================\n");
                 Console.WriteLine("\t\t\t\t\t\tWELCOME TO THE RECIPE MANAGING APPLICATION ");
                 Console.WriteLine("======================================================================================================================\n");

@@ -8,7 +8,6 @@ using System.Xml.Serialization;
 
 namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
 {
-    delegate double Delegating(double Calories);
     public delegate void RecipeCaloriesExceededHandler(string Name, int totalCalories);
 
     public class COOKBOOK

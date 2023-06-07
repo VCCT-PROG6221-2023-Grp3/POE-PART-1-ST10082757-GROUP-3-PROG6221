@@ -13,8 +13,10 @@ namespace UnitTestCalories
         {       
             COOKBOOK cook = new COOKBOOK();
 
-            double cal;
-            cal = cook.TOTCAL();
+            double cal = 350 ;
+            cook.TOTCAL(cal);
+
+            Assert.true
 
         }
     }
