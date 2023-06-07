@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
-{
+{ 
     public class recipe
     {
         ingredients ingred = new ingredients();
