@@ -97,7 +97,7 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
         #endregion
 
         #region
-         public void decide()
+         public void decide() 
         {
             int choice = 0;
 
