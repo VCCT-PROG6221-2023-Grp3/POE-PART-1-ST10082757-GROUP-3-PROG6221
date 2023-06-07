@@ -97,21 +97,6 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
         #endregion
 
         #region
-         public void decide() 
-        {
-            int choice = 0;
-
-            Console.Write("\n0 = NOT YET\n1 = DONE \n");
-            choice = int.Parse(Console.ReadLine());
-
-            if (choice == 0)
-            {
-                ADDINGRECIPE();
-            }
-        }
-        #endregion
-
-        #region
         public void ADDINGRECIPE()
         {
             List<string> list = new List<string>();
