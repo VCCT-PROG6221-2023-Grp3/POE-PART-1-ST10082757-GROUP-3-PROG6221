@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
+namespace POE_PART_2_ST10082757_GROUP_3_PROG6221
 {
     public class Program
     {
         //lists of all my other classes
-        #region
+        #region Lists
         public List<COOKBOOK> cookies = new List<COOKBOOK>();
         public List<recipe> recipes = new List<recipe>();
         public List<ingredients> ingred = new List<ingredients>();
@@ -83,5 +83,6 @@ namespace POE_PART_1_ST10082757_GROUP_3_PROG6221
                 }
             }
         }
+
     }
 }

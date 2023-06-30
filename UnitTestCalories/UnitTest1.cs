@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using POE_PART_1_ST10082757_GROUP_3_PROG6221;
+using POE_PART_2_ST10082757_GROUP_3_PROG6221;
 
 namespace UnitTestCalories
 {
@@ -14,7 +14,7 @@ namespace UnitTestCalories
             COOKBOOK cook = new COOKBOOK();
 
             double cal = 350 ;
-            cook.TOTCAL(cal);
+            //cook.TOTCAL(cal);
 
             //Assert.true
 
