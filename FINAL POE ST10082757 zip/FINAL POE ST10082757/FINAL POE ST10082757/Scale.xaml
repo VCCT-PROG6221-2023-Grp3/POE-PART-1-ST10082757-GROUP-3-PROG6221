@@ -1,0 +1,23 @@
+﻿<Window x:Class="FINAL_POE_ST10082757.Scale"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FINAL_POE_ST10082757"
+        mc:Ignorable="d"
+        Title="Scale" Height="450" Width="800">
+    <Grid>
+        <TextBlock Name="Header" Text =" THE RECIPE MANAGING APPLICATION" FontSize="30" VerticalAlignment ="Top" HorizontalAlignment="Center"/>
+
+        <Button x:Name="Quit" Width="150" Height="30"  Content="Quit"  HorizontalAlignment="Right" Margin="0,0,52,20" VerticalAlignment="Bottom"  Click="Quit_Click" Cursor="Hand" />
+
+        <Button x:Name="Save" Width="150" Height="30"  Content="Save"  HorizontalAlignment="Right" Margin="0,0,580,20" VerticalAlignment="Bottom" Cursor="Hand" Click="Save_Click_1"/>
+ <ComboBox x:Name="ScaleFactorComboBox" Margin="100 200 100 200">
+            <ComboBoxItem Content="0.5 " />
+            <ComboBoxItem Content="1.0 " IsSelected="True" />
+            <ComboBoxItem Content="2.0" />
+            <ComboBoxItem Content="3.0 " />
+        </ComboBox>
+
+    </Grid>
+</Window>

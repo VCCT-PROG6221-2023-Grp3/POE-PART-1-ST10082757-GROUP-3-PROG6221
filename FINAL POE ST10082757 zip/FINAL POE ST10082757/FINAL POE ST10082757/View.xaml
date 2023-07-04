@@ -1,0 +1,53 @@
+﻿<Window x:Class="FINAL_POE_ST10082757.View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FINAL_POE_ST10082757"
+        mc:Ignorable="d"
+        Title="View" Height="540" Width="960">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="File">
+                    <MenuItem x:Name="Deletebtn" Header="Delete Data" Click="Deletebtn_Click"/>
+                    <MenuItem x:Name="exitbtn" Header="Exit" Click="exitbtn_Click"/>
+                </MenuItem>
+                <MenuItem x:Name="Addbtn" Header="Add Recipes" Click="Addbtn_Click"/>
+                <MenuItem>
+                    <MenuItem.Header>
+                        <StackPanel Orientation="Horizontal"/>
+                    </MenuItem.Header>
+                </MenuItem>
+              
+
+            </Menu>
+
+        </DockPanel>
+
+        <ComboBox x:Name="Steven" Width="120" Height="20" Margin="123,65,717,439"/>
+        <Button x:Name="Rbutton" Content="Refresh" Width="120" Height="20" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,80" Click="Rbutton_Click" />
+        <StackPanel Margin="0,90">
+            <TextBox x:Name="george" TextWrapping="Wrap" Text="" Width="722" Height="313" RenderTransformOrigin="0.492,0.464">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.084"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.532"/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <!-- Existing content of the StackPanel -->
+        </StackPanel>
+
+        <Button x:Name="Viwings" Height="20"
+                Width="50"
+                Content="View"
+                Click="Viwings_Click"
+                Margin="455,423,455,81" RenderTransformOrigin="0.507,0.332">
+
+        </Button>
+
+    </Grid>
+</Window>

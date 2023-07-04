@@ -1,0 +1,26 @@
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\bin\Debug\FINAL POE ST10082757.exe.config
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\bin\Debug\FINAL POE ST10082757.exe
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\bin\Debug\FINAL POE ST10082757.pdb
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL POE ST10082757.csproj.AssemblyReference.cache
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL POE ST10082757.csproj.SuggestedBindingRedirects.cache
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\MainWindow.g.cs
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\App.g.cs
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL POE ST10082757_MarkupCompile.cache
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL POE ST10082757_MarkupCompile.lref
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\MainWindow.baml
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL POE ST10082757.g.resources
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL_POE_ST10082757.Properties.Resources.resources
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL POE ST10082757.csproj.GenerateResource.cache
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL POE ST10082757.csproj.CoreCompileInputs.cache
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL POE ST10082757.exe
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL POE ST10082757.pdb
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\EnterRecipes.g.cs
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\EnterRecipes.baml
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\bin\Debug\POE PART 1 ST10082757 GROUP 3 PROG6221.exe
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\bin\Debug\POE PART 1 ST10082757 GROUP 3 PROG6221.pdb
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\bin\Debug\POE PART 1 ST10082757 GROUP 3 PROG6221.exe.config
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\FINAL POE ST10082757.csproj.CopyComplete
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\Scale.g.cs
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\Scale.baml
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\View.g.cs
+C:\Users\nande\source\repos\FINAL POE ST10082757\FINAL POE ST10082757\obj\Debug\View.baml

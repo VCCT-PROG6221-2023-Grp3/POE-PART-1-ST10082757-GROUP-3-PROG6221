@@ -1,0 +1,139 @@
+﻿<Window x:Class="FINAL_POE_ST10082757.EnterRecipes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FINAL_POE_ST10082757"
+        mc:Ignorable="d"
+        Title="EnterRecipes" Height="540" Width="960">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem  Header="File">
+                    <MenuItem x:Name="Deletebtn1" Header="Delete Data" Click="Deletebtn1_Click"/>
+                    <MenuItem x:Name="exitbtn1" Header="Exit" Click="exitbtn1_Click"/>
+                </MenuItem>
+                <MenuItem  x:Name="Viewbtn1" Header="View Recipe" Click="Viewbtn1_Click"/>
+            </Menu>
+            <StackPanel></StackPanel>
+        </DockPanel>
+        <StackPanel Margin ="0,10,0,0">
+            <TextBlock Name="Header" Text =" THE RECIPE MANAGING APPLICATION" FontSize="30" VerticalAlignment ="Top" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
+            <TextBlock Name="Header4" Text="Recipe Name" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.RowSpan="4" Grid.ColumnSpan="4" Margin="0,0,0,0"/>
+            <TextBox Name="Recname" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180"/>
+        </StackPanel>
+        <!--<Button x:Name="Addbtn" Content="Add Fields" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,70,20,0" Click="Addbtn_Click" Height="20" />-->
+
+        <Grid Margin="0,100,0,111">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Add Ingredients" VerticalAlignment="Top" HorizontalAlignment="Left" />
+            </StackPanel>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" BorderThickness="0.5" Margin="1,0,-1,0">
+                <StackPanel x:Name="FieldsContainer"  Margin="0,0,0,0">
+                    <!-- Button to add more fields -->
+                    <Button x:Name="Addbtn" Content="Add Fields" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,0,0,0" Click="Addbtn_Click" Height="20"/>
+
+                    <!-- List view to capture the variables -->
+                    <ListView x:Name="VariableListView" Margin="0,0,0,20">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Measure" Width="120">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBox Text="{Binding Measure}" Width="120"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Sum" Width="120">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBox Text="{Binding Sum}" Width="120"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Ingredient Name" Width="120">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBox Text="{Binding NameOfIngredient}" Width="120"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Calories" Width="120">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBox Text="{Binding Calories}" Width="120"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Food Group" Width="120">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <ComboBox Width="80" SelectedValuePath="Content" SelectedValue="{Binding FoodGroup, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                                                <ComboBoxItem Content="Starchy foods" />
+                                                <ComboBoxItem Content="Vegetables and fruits" />
+                                                <ComboBoxItem Content="Dry beans, peas, lentils and soya" />
+                                                <ComboBoxItem Content="Chicken, fish, meat and eggs" />
+                                                <ComboBoxItem Content="Milk and dairy products" />
+                                                <ComboBoxItem Content="Fats and oil" />
+                                                <ComboBoxItem Content="Water" />
+                                            </ComboBox>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Number of Ingredients" Width="120">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBox Text="{Binding NumOfIngredients}" Width="120"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Total Calories" Width="120">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBox Text="{Binding TotalCalories}" Width="120"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+        <!-- Steps ListView -->
+        <Grid Margin="0,325,0,74">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Add Steps" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,0"/>
+            </StackPanel>
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel x:Name="StepsContainer" Margin="0,0,0,0">
+                    <!-- Button to add more steps -->
+                    <Button x:Name="AddStepBtn" Content="Add Step" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,0,0,0" Click="AddStepBtn_Click" Height="20"/>
+
+                    <!-- List view to capture the steps -->
+                    <ListView x:Name="StepListView" Margin="0,0,0,20">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Step" Width="120">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBox Text="{Binding Step}" Width="120"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+
+        <Button Name="Save" Width="150" Height="30"  Content="Save"  HorizontalAlignment="Center" Margin="0,454,0,0" VerticalAlignment="Top"  Click="Save_Click" Cursor="Hand" />
+
+    </Grid>
+</Window>
