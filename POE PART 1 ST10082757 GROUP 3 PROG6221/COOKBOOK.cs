@@ -355,7 +355,7 @@ namespace POE_PART_2_ST10082757_GROUP_3_PROG6221
         #endregion
 
         #region for calculating total calories
-        public double TOTCAL()  
+        public double TOTCAL()   
         {
             double totalCalories = 0;
 
