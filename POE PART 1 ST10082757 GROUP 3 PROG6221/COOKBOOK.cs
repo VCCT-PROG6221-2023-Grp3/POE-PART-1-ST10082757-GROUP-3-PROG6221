@@ -20,7 +20,7 @@ namespace POE_PART_2_ST10082757_GROUP_3_PROG6221
         //variables and lists needed for this class
         private string RecipeName;
         private double total;
-        public string steps { get; set; }
+        public string steps { get; set; } 
         public List<recipe> recipe01 = new List<recipe>();
         public static List<ingredients> ingredientsList = new List<ingredients>();
         public static List<COOKBOOK> recipeList = new List<COOKBOOK>();
