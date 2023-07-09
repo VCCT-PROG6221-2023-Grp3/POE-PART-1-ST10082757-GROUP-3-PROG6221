@@ -23,8 +23,8 @@ namespace POE_PART_2_ST10082757_GROUP_3_PROG6221
         private double total;
         public string steps { get; set; }
         public List<recipe> recipe01 = new List<recipe>();
-        public List<ingredients> ingredientsList = new List<ingredients>();
-        List<COOKBOOK> recipeList = new List<COOKBOOK>();
+        public static List<ingredients> ingredientsList = new List<ingredients>();
+        public static List<COOKBOOK> recipeList = new List<COOKBOOK>();
         public List<string> stpList = new List<string>();
         public List<ingredients> ingredients { get; set; }
 
