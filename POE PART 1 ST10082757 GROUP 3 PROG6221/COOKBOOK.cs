@@ -296,7 +296,7 @@ namespace POE_PART_2_ST10082757_GROUP_3_PROG6221
 
             // Display all the recipe names that were inputted by the user so the recipe knows which one to choose from
             foreach (COOKBOOK ig in recipeList)
-            {
+            { 
                 Console.WriteLine($"\nRECIPES: \n{ig.RecipeName1}");
             }
 
