@@ -9,7 +9,7 @@ namespace POE_PART_2_ST10082757_GROUP_3_PROG6221
 {
     public class ingredients
     {
-        //variables 
+        //variables  
         private string measure = "";
         private double sum = 0;
         private string nameofingredient = "";
