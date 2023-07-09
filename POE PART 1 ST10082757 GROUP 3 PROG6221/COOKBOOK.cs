@@ -15,7 +15,7 @@ namespace POE_PART_2_ST10082757_GROUP_3_PROG6221
     //delegate for notification of calories exceeding 300
     public delegate void RecipeNotificationHandler(string message);
     public class COOKBOOK 
-    {
+    { 
 
         //variables and lists needed for this class
         private string RecipeName;
