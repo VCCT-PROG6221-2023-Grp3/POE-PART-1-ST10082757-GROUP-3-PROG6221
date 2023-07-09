@@ -300,7 +300,7 @@ namespace POE_PART_2_ST10082757_GROUP_3_PROG6221
                 Console.WriteLine($"\nRECIPES: \n{ig.RecipeName1}");
             }
 
-            // Prompt user
+            // Prompt user 
             Console.WriteLine("\nWhich recipe details would you like to view?: ");
             recipeName = Console.ReadLine();
 
