@@ -368,7 +368,7 @@ namespace POE_PART_2_ST10082757_GROUP_3_PROG6221
         }
         #endregion
 
-        #region Event handler method
+        #region Event handler method 
         public static void HandleRecipeNotification(string message)
         {
             Console.WriteLine(message);
