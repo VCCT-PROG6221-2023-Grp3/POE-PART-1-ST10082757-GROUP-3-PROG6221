@@ -213,7 +213,7 @@ namespace POE_PART_2_ST10082757_GROUP_3_PROG6221
         #endregion
 
         #region foodgroup
-        public void select()
+        public void select() 
     {
             string foodGroup = "";
 
